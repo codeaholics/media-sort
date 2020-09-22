@@ -52,6 +52,7 @@ func main() {
 		Repo("github.com/jpillora/media-sort").
 		DocAfter("usage", "info", info).
 		DocBefore("version", "pathtemplates", pathTemplates).
+		SetLineWidth(128).
 		Version(version).
 		Parse()
 
